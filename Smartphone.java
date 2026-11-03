@@ -1,11 +1,7 @@
-public class Smartphone extends Device {
-    
-    public Smartphone(String screenSize, String storage){
-        super(screenSize,storage);
-    }
+public class Smartphone implements Device {
 @Override 
     public void TurnOn(){
-        System.out.print("Smartphone now on.\n\nScreen Size: "+screenSize+"\nStorage: "+storage+"\n\n");
+        System.out.print("Smartphone now on.\n\nScreen Size: "+"6x7in"+"\nStorage: "+"375GB"+"\n\n");
     }
 
 }
